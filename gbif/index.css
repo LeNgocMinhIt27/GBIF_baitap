@@ -1,6 +1,9 @@
 .border_color {
-    border-bottom: 2px solid #17594a !important;
-    color: #17594a !important;
+    border-bottom: 1px solid red !important;
+}
+
+.border_color a {
+    color: #333 !important;
 }
 
 #login #login-tab,

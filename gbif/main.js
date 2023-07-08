@@ -93,26 +93,27 @@ createCartForm.appendChild(createCartUl);
 //li
 const createFormUlLi = document.createElement("li");
 createFormUlLi.className = "nav-item";
+createFormUlLi.id = "login-tab";
+createFormUlLi.style = "width:50%;text-align:center";
 createCartUl.appendChild(createFormUlLi);
 
 const createALogin = document.createElement("a");
 createALogin.className = "nav-link";
 createALogin.href = "#";
-createALogin.id = "login-tab";
-createFormUlLi.appendChild(createALogin);
-document.getElementById("login-tab");
 
+createFormUlLi.appendChild(createALogin);
 const CreateTextNewLogin = document.createTextNode("Login");
 
-document.getElementById("login-tab").appendChild(CreateTextNewLogin);
+createALogin.appendChild(CreateTextNewLogin);
 //
 const createFormUlLi2 = document.createElement("li");
 createFormUlLi2.className = "nav-item";
+createFormUlLi2.id = "register-tab";
+createFormUlLi2.style = "width:50%;text-align:center";
 createCartUl.appendChild(createFormUlLi2);
 const createARegister = document.createElement("a");
 createARegister.className = "nav-link";
 createARegister.href = "#";
-createARegister.id = "register-tab";
 createFormUlLi2.appendChild(createARegister);
 const createTextnewRegister = document.createTextNode("Register");
 createARegister.appendChild(createTextnewRegister);
