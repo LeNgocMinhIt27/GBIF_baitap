@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,4 +21,311 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./main.js"></script>
   </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Document</title>
+        <style>
+            a{
+                text-decoration: none;
+            }
+            #sidebar{
+                box-shadow: -5px 0 8px -2px rgba(139, 128, 128, 0.3), 5px 0 8px -2px rgba(139, 128, 128, 0.3);
+                border-left: 1px solid #e2dcdc;
+                border-right: 1px solid #e2dcdc;
+                background-color: #fff;
+                padding: 0px 20px;
+
+            }
+            .sidebar_title{
+                text-transform: uppercase;
+                border-left: 5px solid #1ac91a;
+                padding-left: 15px;
+                font-weight: 700;
+            
+            }
+            .card{
+                border: none;
+              
+            }
+
+          .sidebar_thumbnail{
+          display: block;
+          height:85%;
+          width: 100%;
+          margin-top: auto;
+          margin-bottom: auto;
+          }
+          .sidebar_thumbnail_img{
+            display: block;
+            width: 100%;
+            height:100%;
+            opacity: 0.8;
+            transition: opacity 0.2s ease-in-out;
+          
+          }
+          .sidebar_thumbnail_img:hover{
+            opacity: 1;
+          }
+            .sidebar_content{
+                border-bottom: 1px solid #c9c3c3;
+                border-radius: 0px;
+                padding: 1rem 0;
+
+            }
+            .sidebar_content:last-child{
+                border-bottom:none; 
+            }
+            .sidebar_description{
+                display: flex;
+                align-items: center;
+            }
+            .sidebar_description_infor{
+                color: #254869;
+                opacity: 0.7;
+                margin: 0;
+                padding: 0;
+            }
+            .sidebar_description:hover{
+                opacity: 1;
+            }
+            .sidebar_description:hover .sidebar_description_infor{
+                color:#3885cd;
+            }
+            /* 
+            section 2
+             */
+        </style>git 
+    </head>
+    <body>
+        <section>
+            <!-- Nhiều người đọc  -->
+            <div class="container bg-light">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-3">
+                        <!-- Nội dung phần bên trái --></div>
+                    <div id="sidebar" class="col-md-4">
+                        <h4 class="sidebar_title">Nhiều người đọc</h4>
+                        <div class="card sidebar_content">
+                            <div class="row">
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <a href="" class="sidebar_thumbnail">
+                                        <img src="https://cdn.lichviet.org/upload/lichviet/2023-07/05/web_lichviet/ngay-tam-nuong.png" alt="Image" class="card-img sidebar_thumbnail_img">
+                                    </a>
+                                </div>
+                                <div class="col-md-6 sidebar_description">
+                                    <a href="">
+                                        <h5 class="card-text sidebar_description_infor">
+                                            Ngày tam nương là ngày ngày gì ?
+                                        Những ngày cần biết về ngày tam nương
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card sidebar_content">
+                            <div class="row">
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <a href="" class="sidebar_thumbnail">
+                                        <img src="https://upload.hn.ss.bfcplatform.vn/lichviet/2023-07/10/web_lichviet/le-that-tich.png" alt="Image" class="card-img sidebar_thumbnail_img">
+                                    </a>
+                                </div>
+                                <div class="col-md-6 sidebar_description">
+                                    <a href="">
+                                        <h5 class="card-text sidebar_description_infor">
+                                            Thất tịch là ngày gì? Nguồn gốc và ý nghĩa của ngày lễ Thất Tịch
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card sidebar_content">
+                            <div class="row">
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <a href="" class="sidebar_thumbnail">
+                                        <img src="https://cdn.lichviet.org/upload/lichviet/2023-07/07/web_lichviet/thang-co-hon.png" alt="Image" class="card-img sidebar_thumbnail_img">
+                                    </a>
+                                </div>
+                                <div class="col-md-6 sidebar_description">
+                                    <a href="">
+                                        <h5 class="card-text sidebar_description_infor">
+                                            Tháng cô hồn là ngày nào? Nên làm gì và kiêng gì vào tháng cô hồn
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card sidebar_content">
+                            <div class="row">
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <a href="" class="sidebar_thumbnail">
+                                        <img src="https://cdn.lichviet.org/upload/lichviet/2023-06/16/web_lichviet/top-3-tuoi-tot-nhat-thang-7-duong-lich.png" alt="Image" class="card-img sidebar_thumbnail_img">
+                                    </a>
+                                </div>
+                                <div class="col-md-6 sidebar_description">
+                                    <a href="">
+                                        <h5 class="card-text sidebar_description_infor">
+                                            Top 3 tuổi tốt nhất trong tháng 7 dương lịch năm 2023
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+            /* Ảnh quảng cáo  */
+            .banner_ad{
+                position: relative;
+                cursor: pointer;
+
+            }
+            .banner_ad_thumbnail{
+                display: block;
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+            }
+            .banner_ad_close{
+                right: 0px;
+                top:0px;
+                font-size: 25px;
+                padding:0px 2px 5px 2px;
+            }
+            .banner_ad_ask{
+                right: 22px;
+                top:0px;
+                font-size: 18px;
+                padding:2px 5px 2px 6px;
+            }
+            .banner_ad_ask,.banner_ad_close{
+                position: absolute;
+                cursor: pointer;
+                font-weight: 600;
+                background-color:#c9c3c3 ;
+                color: #000;
+                z-index: 1;
+                color:#3885cd;
+                height: 15px;
+                
+display: flex;
+align-items: center;
+justify-content: center;
+            }
+            .ad_icon_next i {
+                font-size: 30px;
+                padding: 20px 25px;
+                background-color: #000;
+                color: #fff;
+                border-radius: 50%;
+                position: absolute;
+                right: 10px;
+                bottom: 10%;
+                cursor: pointer;
+                transition: box -shadow 0.3s ease;
+            }
+            .ad_icon_next:hover i{
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+            .banner_ad_text{
+                font-size: 30px;
+                color: #fff;
+                position: absolute;
+                left: 10px;
+                bottom: 10%;
+                cursor: pointer;
+
+            }
+            .banner_ad_text h1{
+                letter-spacing: 2px;
+                margin-bottom: 0px;
+                word-spacing: 5px;
+                font-weight: 600;
+                color: #000;
+            }
+        </style>
+        <section>
+            <!-- Ảnh quảng cáo -->
+            <div class="container ad">
+                <div class="banner_ad">
+                    <a href="">
+                        <img src="https://images.pexels.com/photos/955657/pexels-photo-955657.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="banner_ad Image" class="img-fluid banner_ad_thumbnail">
+                    </a>
+                    <span class="close-button banner_ad_close">&times;</span>
+                    <span class="close-button banner_ad_ask">?</span>
+                    <div class="banner_ad_text">
+                        <h1>Tạo quảng cáo tiktok cuốn hút</h1>
+                    </div>
+                    <span class="ad_icon_next">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <style>
+             /* Lịch theo tháng */
+             .content_details_title{
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+
+             }
+             .content_details_sub,.content_details_calendar_month{
+                display: inline-block;
+                background-color: #1A5D1A;
+                color:#fff;
+                padding: 0px 8px;
+                line-height: 1.3;
+                font-size: 15px;
+                margin-bottom: 1rem;
+
+             }
+             .content_details_des{
+                margin-bottom: 1rem;
+
+             }
+             .content_details_more{
+
+             }
+             .content_details_calendar i{
+                
+
+             }
+             .content_details_calendar_month{
+
+             }
+            </style>
+            <!-- Lịch theo tháng  -->
+            <div class="container content_details">
+                <h4 class="content_details_title">Lịch âm tháng 1 năm 2023</h4>
+                <span class="content_details_sub rounded-pill">Lịch vạn niên tháng 1 năm 2023</span>
+                <div class="content_details_des">Tháng Quý Sửu(Âm Lịch)</div>
+                <p class="content_details_more">Tháng đầu tiên của năm , tháng mở đầu của mùa xuân. Loài hoa tượng trưng cho tháng 1 là hoa Cúc Trường Sinh. Ý nghĩa tháng 1 biểu tượng rằng bạn là người mạnh mẽ, có nghị lực vượt qua mọi khó khăn. Thời điểm của tháng 1 là bước giao mùa giữa mùa Đông và mùa XUân. Tháng 1 là tháng im dấu với thời tiết mưa phùn, mùa xuân ẩm ướt kéo dài đằng đẵng.</p>
+                <div class="content_details_calendar">
+                    <i class="fa-solid fa-pen" style="color: #4138b7;"></i>
+                    <a href="#">
+                        <span class="content_details_calendar_month rounded-pill">Lịch tháng 1 năm 2023</span>
+                    </a>
+                    <a href="#">
+                        <span class="content_details_calendar_month rounded-pill">Lịch âm 1/2023</span>
+                    </a>
+                    <a href="#">
+                        <span class="content_details_calendar_month rounded-pill">Lịch dương tháng 1 năm 2023</span>
+                    </a>
+                    <a href="#">
+                        <span class="content_details_calendar_month rounded-pill">Lịch tháng 1/2023</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
+
