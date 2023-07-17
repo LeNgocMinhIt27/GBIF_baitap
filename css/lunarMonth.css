@@ -1,0 +1,17 @@
+/* Lịch theo tháng */
+.content_details_title {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.content_details_sub, .content_details_calendar_month {
+    display: inline-block;
+    background-color: #1A5D1A;
+    color: #fff;
+    padding: 0px 8px;
+    line-height: 1.3;
+    font-size: 15px;
+    margin-bottom: 1rem;
+
+}
